@@ -1,0 +1,77 @@
+header{
+    text-align: left;
+    font-family: "calibri";
+    background-color: rgb(31, 28, 28);
+    color: white;
+    padding: 200px;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: "calibri";
+}
+header .user img{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+.hi{
+    padding: 100px;
+}
+.navbar ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(43, 42, 42);
+    border-radius: 5rem;
+    padding: 1rem;
+    margin: 1.5rem 0;
+}
+.navbar ul :hover{
+    color: rgb(221, 170, 17);
+    background: var(--yellow);
+}
+.navbar ul :active{
+    color: rgb(119, 89, 8);
+}
+.user h2{
+    color: rgb(155, 155, 9);
+}
+.hi h1{
+    color: rgb(155, 155, 9);
+}
+.about{
+    color: rgb(221, 170, 17);
+    padding-left: 50px;
+}
+.about h3 span{
+    color: white;
+}
+table h1{
+    padding-left:50px ;
+}
+.boxes{
+    padding-left: 50px;
+}
+.box{
+    background-color: rgb(43, 42, 42);
+    width: 180px;
+    padding-left: 50px;
+}
+.box span{
+    color: rgb(221, 170, 17);
+    font-size: 25px;
+}
+.box h3{
+    color: white;
+    font-size: 15px;
+}
+.contactbox span{
+    color: rgb(221, 170, 17);
+    font-size: 25px;
+}
+.contactbox h3{
+    color: white;
+    font-size: 15px;
+}
